@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+passlib[bcrypt]
+python-jose[cryptography]
+cloudscraper
+beautifulsoup4
+requests
+numpy
