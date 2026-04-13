@@ -108,10 +108,10 @@ class CodeforcesService {
 }
 
 class ApiService {
-  static const String baseUrl =
-      "http://127.0.0.1:8000"; // backend URL
+  static const String baseUrl = "http://127.0.0.1:8000"; // backend URL
 
-  static const String _geminiApiKey = "AIzaSyCNp43QBEbnkQgyDkedAma03vmyw37WhB0";
+  static const String _geminiApiKey =
+      "YOUR_GEMINI_API_KEY_HERE"; // Replace with your Gemini API key
   static Future<String> getProblemSummary(
       String name, int contestId, String index) async {
     try {
